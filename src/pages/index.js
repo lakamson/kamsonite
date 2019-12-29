@@ -2,9 +2,6 @@ import React from "react"
 import styled from "styled-components"
 import { Box, Heading, Text, Link, Flex } from "@primer/components"
 import Octicon, {
-  Package,
-  Repo,
-  Heart,
   Octoface,
   Mail,
   Megaphone,
@@ -24,7 +21,7 @@ TwitterIcon.size = [20, 20]
 const IndexPage = () => (
   <Layout>
     <SEO
-      title="Gatsby Primer Starter"
+      title="gatsby-starter-primer"
       image="https://gatsby-starter-primer.netlify.com/share.jpg"
     />
     <Hero pt={[4, 2, 5]}>
@@ -44,17 +41,16 @@ const IndexPage = () => (
               fontSize={[48, 56, 84]}
               fontWeight="700"
             >
-              Mona L. Octocat
+              Lake Kamson
             </Heading>
             <Text color="blue.2" fontSize={[4, 5, 5, 7]} lineHeight={1.25}>
-              Showcasing all of your open source projects, made available on
-              Github.
+             Some Open Source projects I am passionate about.
             </Text>
           </Flex.Item>
           <Flex.Item
             px={5}
             my={[4, 3, 0]}
-            width={[1, 1, 1, 7 / 12]}
+            width={[1, 1, 1, 7 / 12]}build
             style={{ marginTop: "1em" }}
           >
             <Text
@@ -64,100 +60,45 @@ const IndexPage = () => (
               color="blue.3"
               mt={5}
             >
-              <LinkLight
-                fontSize={[0, 1, 2]}
-                href="https://github.com/monatheoctocat"
-              >
-                GitHub
-              </LinkLight>{" "}
-              ・
+            
               <LinkLight
                 style={{ marginLeft: "8px" }}
                 fontSize={[0, 1, 2]}
-                href="https://codepen.io/monatheoctocat"
+                href="https://github.com/salesforce/lwc"
               >
-                CodePen
+                Lightning
               </LinkLight>{" "}
-              ・
+              .
               <LinkLight
                 style={{ marginLeft: "8px" }}
                 fontSize={[0, 1, 2]}
-                href="https://github.com/thomaswangio/gatsby-starter-primer"
+                href="https://github.com/gatsbyjs/gatsby"
               >
-                Contribute
+                Gatsby  
+              </LinkLight>{" "}
+              .
+              <LinkLight
+                style={{ marginLeft: "8px" }}
+                fontSize={[0, 1, 2]}
+                href="https://github.com/facebook/react"
+              >
+                React
+              </LinkLight>{" "}
+              .
+              <LinkLight
+                style={{ marginLeft: "8px" }}
+                fontSize={[0, 1, 2]}
+                href="https://github.com/primer"
+              >
+                Primer 
               </LinkLight>{" "}
             </Text>
           </Flex.Item>
         </div>
       </Grid>
     </Hero>
-    <Divider my={[9, 12]} />
     <Body>
-      <Grid>
-        <Grid.Item mt={[3, 2, 2]} mb={5} pb={2}>
-          <Text fontWeight={500} fontSize={5} color="blue.2" lineHeight={1.25}>
-            Featured open-source packages and projects.
-          </Text>
-        </Grid.Item>
-      </Grid>
-      <Box px={5} className="container-xl">
-        <Flex mx={-5} flexWrap="wrap" alignItems="start">
-          <StyledFlex size={[1, 6 / 12, 6 / 12]} px={5} mb={[3, 4, 4, 2]}>
-            <Flex.Item color="blue.3" mr={3}>
-              <Octicon icon={Package} height={40} verticalAlign="middle" />
-            </Flex.Item>
-            <Flex.Item>
-              <LinkLight
-                style={{ marginBottom: "1.45rem" }}
-                fontSize={2}
-                href="https://github.com/primer/css"
-              >
-                primer
-              </LinkLight>
-              <Text as="p" color="blue.2" mb={5} fontSize={3}>
-                This package includes all 30 Primer modules from the core,
-                product, and marketing packages
-              </Text>
-            </Flex.Item>
-          </StyledFlex>
-          <StyledFlex size={[1, 6 / 12, 6 / 12]} px={5} mb={[3, 4, 4, 2]}>
-            <Flex.Item color="blue.3" mr={3}>
-              <Octicon icon={Repo} height={40} verticalAlign="middle" />
-            </Flex.Item>
-            <Flex.Item>
-              <LinkLight
-                style={{ marginBottom: "1.45rem" }}
-                fontSize={2}
-                href="https://github.com/facebook/react"
-              >
-                react
-              </LinkLight>
-              <Text as="p" color="blue.2" mb={5} fontSize={3}>
-                A declarative, efficient, and flexible JavaScript library for
-                building user interfaces.
-              </Text>
-            </Flex.Item>
-          </StyledFlex>
-          <StyledFlex size={[1, 6 / 12, 6 / 12]} px={5} mb={[3, 4, 4, 2]}>
-            <Flex.Item color="blue.3" mr={3}>
-              <Octicon icon={Heart} height={40} verticalAlign="middle" />
-            </Flex.Item>
-            <Flex.Item>
-              <LinkLight
-                style={{ marginBottom: "1.45rem" }}
-                fontSize={2}
-                href="https://github.com/gatsbyjs/gatsby"
-              >
-                gatsby
-              </LinkLight>
-              <Text as="p" color="blue.2" mb={5} fontSize={3}>
-                Build blazing fast, modern apps and websites with React.
-              </Text>
-            </Flex.Item>
-          </StyledFlex>
-        </Flex>
-      </Box>
-      <Divider my={[9, 12]} />
+     
     </Body>
     <Box bg="blue.2" pt={12} mt={6}>
       <Grid justifyContent="center">
@@ -176,7 +117,7 @@ const IndexPage = () => (
             fontSize={2}
             mb={3}
             display="block"
-            href="https://twitter.com/monatheoctocat"
+            href="https://twitter.com/lakamson"
           >
             <Octicon icon={TwitterIcon} size={20} verticalAlign="top" />
             <Text ml={2} fontWeight="400" fontSize={2}>
@@ -187,7 +128,7 @@ const IndexPage = () => (
             fontSize={2}
             mb={3}
             display="block"
-            href="https://github.com/github"
+            href="https://github.com/lakamson"
           >
             <Octicon icon={Octoface} size={20} verticalAlign="text-top" />
             <Text ml={2} fontWeight="400" fontSize={2}>
@@ -198,7 +139,7 @@ const IndexPage = () => (
             fontSize={2}
             mb={3}
             display="block"
-            href="https://github.com"
+            //href="https://kamsonite.com"
           >
             <Octicon icon={Megaphone} size={20} verticalAlign="text-top" />
             <Text ml={2} fontWeight="400" fontSize={2}>
@@ -209,7 +150,7 @@ const IndexPage = () => (
             fontSize={2}
             mb={3}
             display="block"
-            href="mailto:youremail@domain.com"
+            href="mailto:lakekamson@gmail.com"
           >
             <Octicon icon={Mail} size={20} verticalAlign="text-top" />
             <Text style={{ marginLeft: "12px" }} fontWeight="400" fontSize={2}>
@@ -239,7 +180,7 @@ const IndexPage = () => (
           </LinkDark>
           <Text>.</Text>
           <Text as="p" fontSize={2} fontWeight={500} mt={3}>
-            &copy; Mona Lisa Octocat {new Date().getFullYear()}.
+            &copy; Lake Kamson {new Date().getFullYear()}.
           </Text>
         </Box>
       </FooterBox>
@@ -260,6 +201,7 @@ const ImageContainer = styled(Flex.Item)`
   width: 83.33333333333334%;
   margin-bottom: 32px;
 
+  
   @media screen and (min-width: 544px) {
     width: 66.66666666666666%;
   }
@@ -267,14 +209,6 @@ const ImageContainer = styled(Flex.Item)`
   @media screen and (min-width: 1012px) {
     width: 41.66666666666667%;
   }
-`
-
-const Divider = styled(Box)`
-  border-top: 2px solid #79b8ff;
-  opacity: 0.15;
-  width: 10%;
-  margin-right: auto;
-  margin-left: auto;
 `
 
 const LinkLight = styled(Link)`
@@ -307,14 +241,6 @@ const LinkDark = styled(Link)`
 const Body = styled(Box)`
   margin: auto;
   max-width: 1280px;
-`
-
-const StyledFlex = styled(Flex)`
-  max-width: 640px;
-
-  @media screen and (min-width: 768px) {
-    width: 50%;
-  }
 `
 
 const FooterBox = styled(Box)`
