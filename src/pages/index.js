@@ -88,7 +88,7 @@ const IndexPage = () => (
               <LinkLight
                 style={{ marginLeft: "8px" }}
                 fontSize={[0, 1, 2]}
-                href="https://github.com/primer"
+                href="https://github.com/primer/components"
               >
                 Primer 
               </LinkLight>{" "}

@@ -31,7 +31,7 @@ export default function Nav() {
           </a>
         </Flex>
         <Flex color="blue.2" alignItems="center">
-          <a href="https://www.gatsbyjs.org/starters/thomaswangio/gatsby-starter-primer/">
+          <a href="https://github.com/thomaswang/gatsby-starter-primer">
             <NoWrapText
               mx={3}
               fontSize="2"
