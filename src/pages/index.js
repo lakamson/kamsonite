@@ -44,8 +44,7 @@ const IndexPage = () => (
               Lake Kamson
             </Heading>
             <Text color="blue.2" fontSize={[4, 5, 5, 7]} lineHeight={1.25}>
-             Passionately building web applications that delivers better performance, 
-             high security, lower cost of scaling, with a better developer experience.
+             Passionately working on all things JAMstack and Web Components.
             </Text>
           </Flex.Item>
           <Flex.Item
