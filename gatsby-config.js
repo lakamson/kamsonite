@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Home - Lake Kamson`,
+    title: `Lake Kamson`,
     description: `Open Source Projects from Mona Lisa Octocat, the Github Mascot`,
     author: `@monatheoctocat`,
     keywords: `github, open-source, projects`,

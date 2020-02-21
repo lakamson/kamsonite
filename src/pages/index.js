@@ -121,7 +121,7 @@ const IndexPage = () => (
           >
             <Octicon icon={TwitterIcon} size={20} verticalAlign="top" />
             <Text ml={2} fontWeight="400" fontSize={2}>
-              Follow me on Twitter
+              Follow me on Twitter.
             </Text>
           </LinkDark>
           <LinkDark
@@ -132,7 +132,7 @@ const IndexPage = () => (
           >
             <Octicon icon={Octoface} size={20} verticalAlign="text-top" />
             <Text ml={2} fontWeight="400" fontSize={2}>
-              Follow me on Github
+              Check me out on GitHub.
             </Text>
           </LinkDark>
           <LinkDark
@@ -143,7 +143,7 @@ const IndexPage = () => (
           >
             <Octicon icon={Megaphone} size={20} verticalAlign="text-top" />
             <Text ml={2} fontWeight="400" fontSize={2}>
-              Check out my personal site
+              Visit my Website.
             </Text>
           </LinkDark>
           <LinkDark
@@ -154,7 +154,7 @@ const IndexPage = () => (
           >
             <Octicon icon={Mail} size={20} verticalAlign="text-top" />
             <Text style={{ marginLeft: "12px" }} fontWeight="400" fontSize={2}>
-              Email me anything
+              Send me an Email anytime.
             </Text>
           </LinkDark>
         </Grid.Item>
