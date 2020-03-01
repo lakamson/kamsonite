@@ -67,3 +67,4 @@ Take a look at their [documentation](https://styleguide.github.com/primer/) and 
 ## 💫 Deploy
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/thomaswangio/gatsby-starter-primer)
+"# kamsonite"
