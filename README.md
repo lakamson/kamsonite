@@ -6,7 +6,7 @@
 
     ```sh
     # create a new Gatsby site using this starter
-    gatsby new my-shopify-store https://github.com/AlexanderProd/gatsby-shopify-starter
+    gatsby new gatsby-site https://github.com/lakamsoniteio
     ```
 
 1.  **Start developing.**
@@ -14,7 +14,7 @@
     Navigate into your new site’s directory and start it up.
 
     ```sh
-    cd my-shopify-store/
+    cd gatsby-site/
     gatsby develop
     ```
 
