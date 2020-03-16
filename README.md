@@ -35,17 +35,3 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 - **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
 
 - **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
-
-## Deploy
-
-Checkout my other open-source project [JAMStackBox](https://github.com/AlexanderProd/jam-stack-box) to continuously deploy your Gatsby site on your own server.
-
-## 📌 ToDo
-
-I'll happily merge any pull request to improve the starter. 🙂
-- [X] Convert Layout to function component.
-- [X] Add dynamic inventory checking to avoid re-building after every purchase. 
-- [X] Add better styling.
-- [X] Add image optimization using Gatsby sharp plugin.
-- [X] Convert ProductForm to function component.
-<!-- AUTO-GENERATED-CONTENT:END -->
