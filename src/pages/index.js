@@ -139,7 +139,7 @@ const IndexPage = () => (
             fontSize={2}
             mb={3}
             display="block"
-            //href="https://kamsonite.com"
+            href="https://www.kamsonite.com"
           >
             <Octicon icon={Megaphone} size={20} verticalAlign="text-top" />
             <Text ml={2} fontWeight="400" fontSize={2}>
