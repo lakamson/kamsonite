@@ -1202,17 +1202,19 @@
     string-width "^2.0.0"
     strip-ansi "^3"
 
-"@primer/components@16.3.0":
-  version "16.3.0"
-  resolved "https://registry.yarnpkg.com/@primer/components/-/components-16.3.0.tgz#c623424cc57edcfc5007284970ffbc0fd72f7dbf"
-  integrity sha512-oydKIzcDCtIDjbGEUCLuxW94sDfBFbKRne/I4DlnYYnv6DGxpL1hE3zLoKp3+f5ycpsFSAckXJBafIhimQljpQ==
+"@primer/components@18.1.1":
+  version "18.1.1"
+  resolved "https://registry.yarnpkg.com/@primer/components/-/components-18.1.1.tgz#f03b7fd5433671ad66b876d227dbb7663e89ba7a"
+  integrity sha512-uwge9g/Y8U4F3AonLJwAid/+cyi2/MQP+Hq/g2INY0IhAnwDWPdbIjHD1zIYTbK7WLw/xFCq0gA6l+qiwd4rrg==
   dependencies:
     "@primer/octicons-react" "^9.2.0"
+    "@primer/primitives" "3.0.0"
     "@reach/dialog" "0.3.0"
     "@styled-system/prop-types" "5.1.2"
     "@styled-system/props" "5.1.4"
     "@styled-system/theme-get" "5.1.2"
     "@testing-library/react" "9.4.0"
+    "@types/styled-components" "^4.4.0"
     "@types/styled-system" "5.1.2"
     babel-plugin-macros "2.6.1"
     babel-polyfill "6.26.0"
@@ -1220,8 +1222,6 @@
     details-element-polyfill "2.4.0"
     jest-axe "3.2.0"
     nanoid "2.1.4"
-    primer-colors "1.0.1"
-    primer-typography "1.0.1"
     react "^16.10.2"
     react-is "16.10.2"
     styled-system "5.1.2"
@@ -1232,6 +1232,11 @@
   integrity sha512-FR0fiU1UY1ds5ZMCUY+iVkkm1Eh4yDHf2ui+cxB3VvYX23DAdUAohPGit+qaMFy2caDd7uWYGRZduKS7dW1FZQ==
   dependencies:
     prop-types "^15.6.1"
+
+"@primer/primitives@3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@primer/primitives/-/primitives-3.0.0.tgz#ccfb324b478b2373733535ec49f8de29e238c55d"
+  integrity sha512-ISXB43vcA+kg5pmGtGo3lPlHmY5Mg9nLhliePJu3Y5aP7g28TO+9cC99gL240pZHYsO0aVyU26WZwUXn6UIqJQ==
 
 "@reach/component-component@^0.3.0":
   version "0.3.0"
@@ -1482,6 +1487,14 @@
   resolved "https://registry.yarnpkg.com/@types/history/-/history-4.7.5.tgz#527d20ef68571a4af02ed74350164e7a67544860"
   integrity sha512-wLD/Aq2VggCJXSjxEwrMafIP51Z+13H78nXIX0ABEuIGhmB5sNGbR113MOKo+yfw+RDo1ZU3DM6yfnnRF/+ouw==
 
+"@types/hoist-non-react-statics@*":
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/@types/hoist-non-react-statics/-/hoist-non-react-statics-3.3.1.tgz#1124aafe5118cb591977aeb1ceaaed1070eb039f"
+  integrity sha512-iMIqiko6ooLrTh1joXodJK5X9xeEALT1kM5G3ZLhD3hszxBdIEd5C75U834D9mLcINgD4OyZf5uQXjkuYydWvA==
+  dependencies:
+    "@types/react" "*"
+    hoist-non-react-statics "^3.3.0"
+
 "@types/istanbul-lib-coverage@*", "@types/istanbul-lib-coverage@^2.0.0":
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/@types/istanbul-lib-coverage/-/istanbul-lib-coverage-2.0.1.tgz#42995b446db9a48a11a07ec083499a860e9138ff"
@@ -1564,6 +1577,13 @@
   dependencies:
     "@types/react" "*"
 
+"@types/react-native@*":
+  version "0.62.5"
+  resolved "https://registry.yarnpkg.com/@types/react-native/-/react-native-0.62.5.tgz#605c2d31485c515ee18b62e8b29ffdbba404a443"
+  integrity sha512-x6ZBbo752yAw5XUarOyh53oNgMuafL4EhWEbd4ARSMK6Y7nTRm2a1tBHy8Fp7h7ji0XXJrxNRTXGJRRP3+MWzg==
+  dependencies:
+    "@types/react" "*"
+
 "@types/react@*":
   version "16.9.23"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.23.tgz#1a66c6d468ba11a8943ad958a8cb3e737568271c"
@@ -1579,6 +1599,16 @@
   dependencies:
     "@types/glob" "*"
     "@types/node" "*"
+
+"@types/styled-components@^4.4.0":
+  version "4.4.3"
+  resolved "https://registry.yarnpkg.com/@types/styled-components/-/styled-components-4.4.3.tgz#74dd00ad760845a98890a8539361d8afc32059de"
+  integrity sha512-U0udeNOZBfUkJycmGJwmzun0FBt11rZy08weVQmE2xfUNAbX8AGOEWxWna2d+qAUKxKgMlcG+TZT0+K2FfDcnQ==
+  dependencies:
+    "@types/hoist-non-react-statics" "*"
+    "@types/react" "*"
+    "@types/react-native" "*"
+    csstype "^2.2.0"
 
 "@types/styled-system@5.1.2":
   version "5.1.2"
@@ -9811,16 +9841,6 @@ pretty-format@^25.1.0:
     ansi-regex "^5.0.0"
     ansi-styles "^4.0.0"
     react-is "^16.12.0"
-
-primer-colors@1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/primer-colors/-/primer-colors-1.0.1.tgz#9bc2dbfefeba3ec987eb7d71c6a3d14c67ae9c35"
-  integrity sha512-bxo3OPoIO1F/C07RpKbLjPzuSsTkOMzo9Yl9OJFHGD7/UxA+JvNdZK0GbJzWtz5Y8H6KabbHadxwVWRp1xl08A==
-
-primer-typography@1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/primer-typography/-/primer-typography-1.0.1.tgz#559c03e0d2470fa2d48a4166a63091f4b1162759"
-  integrity sha512-9f1MNOMYOWemosmJIG8FToqZoL7YKQW3KHNsMS3DddTUzJefnVzeqmiiTBPc2ok0yE7fE2PgobG9iRY+itgdVg==
 
 private@^0.1.8:
   version "0.1.8"
