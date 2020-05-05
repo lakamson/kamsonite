@@ -6,7 +6,7 @@
 
     ```sh
     # create a new Gatsby site using this starter
-    gatsby new gatsby-site https://github.com/lakamsoniteio
+    gatsby new gatsby-site https://github.com/lakamson/kamsonite
     ```
 
 1.  **Start developing.**
