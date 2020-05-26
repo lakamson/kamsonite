@@ -13,7 +13,7 @@ export default function Nav() {
             style={{ color: "inherit" }}
             href="https://github.com/lakamson"
           >
-            <Flex color="blue.2" alignItems="center">
+            <Flex color="red.2" alignItems="center">
               <Octicon
                 icon={MarkGithub}
                 ariaLabel="Primer home"
@@ -30,7 +30,7 @@ export default function Nav() {
             </Flex>
           </a>
         </Flex>
-        <Flex color="blue.2" alignItems="center">
+        <Flex color="green.2" alignItems="center">
           <a href="https://github.com/thomaswang/gatsby-starter-primer">
             <NoWrapText
               mx={3}
