@@ -1953,10 +1953,10 @@
     schema-utils "^2.6.5"
     source-map "^0.7.3"
 
-"@primer/components@20.0.0":
-  version "20.0.0"
-  resolved "https://registry.yarnpkg.com/@primer/components/-/components-20.0.0.tgz#643bd7d719af28d6cdf446909255ee04e9f47014"
-  integrity sha512-OpnBJDB+7Rw8NK7p/UlJx3B6uGjRSVKtbEUAE+BjTYAD5wrjSnWKTgBqnorTzPcmstDAxC6GNtmsukyyk3lMHA==
+"@primer/components@20.1.0":
+  version "20.1.0"
+  resolved "https://registry.yarnpkg.com/@primer/components/-/components-20.1.0.tgz#a66ec49493bf017ce175dac63e2fddff1ea41e12"
+  integrity sha512-Z7hM8oTQjlyJTR4PG2pLMoeU3x8SPquSgbGFHl0hBbSFaGkH/8SbM0MN1wDOZhFEH85vvkyA/jdmxEW3bjuQpg==
   dependencies:
     "@babel/helpers" "7.9.2"
     "@babel/runtime" "7.9.2"
