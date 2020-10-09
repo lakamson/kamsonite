@@ -1982,10 +1982,10 @@
     schema-utils "^2.6.5"
     source-map "^0.7.3"
 
-"@primer/components@20.1.0":
-  version "20.1.0"
-  resolved "https://registry.yarnpkg.com/@primer/components/-/components-20.1.0.tgz#a66ec49493bf017ce175dac63e2fddff1ea41e12"
-  integrity sha512-Z7hM8oTQjlyJTR4PG2pLMoeU3x8SPquSgbGFHl0hBbSFaGkH/8SbM0MN1wDOZhFEH85vvkyA/jdmxEW3bjuQpg==
+"@primer/components@20.2.0":
+  version "20.2.0"
+  resolved "https://registry.yarnpkg.com/@primer/components/-/components-20.2.0.tgz#1f7be3be5f9dcdd305d23c286ea8815fe4f7e6a6"
+  integrity sha512-ipPPOZ/gwaolk/gS4woMMDQ5c65AiWwCgtesP3jC9jwWTWma1IQw3shw4ouGzbrkm2/kPl5DnCTn+WmpjHKInA==
   dependencies:
     "@babel/helpers" "7.9.2"
     "@babel/runtime" "7.9.2"
