@@ -1931,10 +1931,10 @@
     schema-utils "^2.6.5"
     source-map "^0.7.3"
 
-"@primer/components@22.0.1":
-  version "22.0.1"
-  resolved "https://registry.yarnpkg.com/@primer/components/-/components-22.0.1.tgz#237658da0083a6bd8cbf90a74d7ba8a3fdd7eaaf"
-  integrity sha512-LQg5BLokci9FtfbeFbAJqC+1p+60Zi96Vh2T/sr9zBKsUM38f7PUP2cC+aIvPdNDv0Lwc4MUhgFA8jTVCJfOcA==
+"@primer/components@22.0.2":
+  version "22.0.2"
+  resolved "https://registry.yarnpkg.com/@primer/components/-/components-22.0.2.tgz#8ab8a36bd36072cecbf6dc36031cb5889673a3bf"
+  integrity sha512-zyPYuHltrn4FPkTvqdGix98zdKXRWh4W+xburLjX6i4rSQ2uy64sMMeC/Fpr9vQx125t10OAewj8cJzjv7/UEg==
   dependencies:
     "@primer/octicons-react" "^10.0.0"
     "@primer/primitives" "3.0.0"
