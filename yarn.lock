@@ -1904,10 +1904,10 @@
     schema-utils "^2.6.5"
     source-map "^0.7.3"
 
-"@primer/components@23.0.0":
-  version "23.0.0"
-  resolved "https://registry.yarnpkg.com/@primer/components/-/components-23.0.0.tgz#936f63440373fda9ac2c55bd2a2c504574d57083"
-  integrity sha512-paei9/NyNV301qloZF4bHsHflVpypab1m8HEaJIrMxgqFURU8fylrN3pLxQI2w6z3JuwINkBbOuBUqGAf7UV2Q==
+"@primer/components@23.0.1":
+  version "23.0.1"
+  resolved "https://registry.yarnpkg.com/@primer/components/-/components-23.0.1.tgz#d38a948426e2eb5816a4e3aa4e232bbbf35ec069"
+  integrity sha512-T/YqFumYANlozDSa6okMyHI2QEGnet4ulw48Cvv9WBPkrSGi5vIcLek5WZUUMooTAtMIuoyhGIcP8fDcWJV3mw==
   dependencies:
     "@primer/octicons-react" "^10.0.0"
     "@primer/primitives" "3.0.0"
@@ -1917,6 +1917,8 @@
     "@styled-system/theme-get" "5.1.2"
     "@types/styled-components" "^4.4.0"
     "@types/styled-system" "5.1.2"
+    "@types/styled-system__css" "5.0.14"
+    "@types/styled-system__theme-get" "5.0.1"
     classnames "^2.2.5"
     polished "3.5.2"
     react-is "16.10.2"
@@ -2362,6 +2364,18 @@
   integrity sha512-Byh33qthYnI6+qS0TRr4vqd+N/ax6ic1NFE6ZA16xuVr/EvYvSB8+diEP1lTSE7sP/MTdQpl+KaONREnyalDUA==
   dependencies:
     csstype "^2.6.4"
+
+"@types/styled-system__css@5.0.14":
+  version "5.0.14"
+  resolved "https://registry.yarnpkg.com/@types/styled-system__css/-/styled-system__css-5.0.14.tgz#97559d823216d475f716fb5b8dd1766f2d3eeafa"
+  integrity sha512-dvhSQ5upz6TqiQmWLNF0sqdoL5nTomza58vtTSklpE9lDS+5w/ew8PQ+HPSRaXMGrmPGUiL7F0vwryVdxHWfpA==
+  dependencies:
+    csstype "^3.0.2"
+
+"@types/styled-system__theme-get@5.0.1":
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@types/styled-system__theme-get/-/styled-system__theme-get-5.0.1.tgz#c3884e8f15641603503dc1d49f9d282dce11e5fb"
+  integrity sha512-+i4VZ5wuYKMU8oKPmUlzc9r2RhpSNOK061Khtrr7X0sOQEcIyhUtrDusuMkp5ZR3D05Xopn3zybTPyUSQkKGAA==
 
 "@types/tmp@^0.0.33":
   version "0.0.33"
@@ -4883,6 +4897,11 @@ csstype@^2.2.0, csstype@^2.6.4:
   version "2.6.9"
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-2.6.9.tgz#05141d0cd557a56b8891394c1911c40c8a98d098"
   integrity sha512-xz39Sb4+OaTsULgUERcCk+TJj8ylkL4aSVDQiX/ksxbELSqwkgt4d4RD7fovIdgJGSuNYqwZEiVjYY5l0ask+Q==
+
+csstype@^3.0.2:
+  version "3.0.6"
+  resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.0.6.tgz#865d0b5833d7d8d40f4e5b8a6d76aea3de4725ef"
+  integrity sha512-+ZAmfyWMT7TiIlzdqJgjMb7S4f1beorDbWbsocyK4RaiqA5RTX3K14bnBWmmA9QEM0gRdsjyyrEmcyga8Zsxmw==
 
 currently-unhandled@^0.4.1:
   version "0.4.1"
