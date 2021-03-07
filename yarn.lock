@@ -1611,17 +1611,17 @@
     schema-utils "^2.6.5"
     source-map "^0.7.3"
 
-"@primer/components@23.0.2":
-  version "23.0.2"
-  resolved "https://registry.npmjs.org/@primer/components/-/components-23.0.2.tgz"
-  integrity sha512-1TaPF239BlOl1+J2Txti9O+uS6VuxBnQW3eCre+ElMEcg3fC4v2ZLZxVp3SreqijOAqGG9Y52uMw3a3nRi9BGg==
+"@primer/components@24.0.0":
+  version "24.0.0"
+  resolved "https://registry.npmjs.org/@primer/components/-/components-24.0.0.tgz"
+  integrity sha512-XbrnRYQ6YI7jdZecHS2wMus6jhd4cLsPjlDESU0dxDs6mqZFRRq4zyoZHxps6v9CcXObw2MnbWaefZvi3QYcvw==
   dependencies:
-    "@primer/octicons-react" "^10.0.0"
-    "@primer/primitives" "3.0.0"
+    "@primer/octicons-react" "^11.3.0"
+    "@primer/primitives" "0.0.0-20211167520"
     "@styled-system/css" "5.1.5"
-    "@styled-system/prop-types" "5.1.2"
     "@styled-system/props" "5.1.4"
     "@styled-system/theme-get" "5.1.2"
+    "@types/history" "4.7.8"
     "@types/styled-components" "5.1.7"
     "@types/styled-system" "5.1.10"
     "@types/styled-system__css" "5.0.14"
@@ -1631,15 +1631,15 @@
     react-is "16.10.2"
     styled-system "5.1.2"
 
-"@primer/octicons-react@^10.0.0":
-  version "10.1.0"
-  resolved "https://registry.npmjs.org/@primer/octicons-react/-/octicons-react-10.1.0.tgz"
-  integrity sha512-WjIaetTaf4x66xxaG/gxwsWRL2JYG33n8CfeR/L134YcX2zl9TPps9crLzI2f3rxjOdKZgVFBoUh94Cim4Fflw==
+"@primer/octicons-react@^11.3.0":
+  version "11.3.0"
+  resolved "https://registry.npmjs.org/@primer/octicons-react/-/octicons-react-11.3.0.tgz"
+  integrity sha512-4sVhkrBKuj3h+PFw69yOyO/l3nQB/mm95V+Kz7LRSlIrbZr6hZarZD5Ft4ewdONPROkIHQM/6KSK90+OAimxsQ==
 
-"@primer/primitives@3.0.0":
-  version "3.0.0"
-  resolved "https://registry.npmjs.org/@primer/primitives/-/primitives-3.0.0.tgz"
-  integrity sha512-ISXB43vcA+kg5pmGtGo3lPlHmY5Mg9nLhliePJu3Y5aP7g28TO+9cC99gL240pZHYsO0aVyU26WZwUXn6UIqJQ==
+"@primer/primitives@0.0.0-20211167520":
+  version "0.0.0-20211167520"
+  resolved "https://registry.npmjs.org/@primer/primitives/-/primitives-0.0.0-20211167520.tgz"
+  integrity sha512-TlsLN1CEN80NqyO+oKP+NHL05cKGVHt0wUoEk9ZKjjmPfGhkJUVC8MxS+8r8+iLOLso5ujZcd31b12az4bRbIw==
 
 "@sideway/address@^4.1.0":
   version "4.1.0"
@@ -1749,13 +1749,6 @@
   integrity sha512-60IZfMXEOOZe3l1mCu6sj/2NAyUmES2kR9Kzp7s2D3P4qKsZWxD1Se1+wJvevb+1TP+ZMkGPEYYXRyU8M1aF5A==
   dependencies:
     "@styled-system/core" "^5.1.2"
-
-"@styled-system/prop-types@5.1.2":
-  version "5.1.2"
-  resolved "https://registry.npmjs.org/@styled-system/prop-types/-/prop-types-5.1.2.tgz"
-  integrity sha512-q2hnuZrOjZdCRYvSoMF5VIDRfpqPHDSgqajoMH0iy7BszPAkZZcIC7L4PzJTIcGSBrB9OJTBitWo9s7N60tgtA==
-  dependencies:
-    prop-types "^15.7.2"
 
 "@styled-system/props@5.1.4":
   version "5.1.4"
@@ -1923,6 +1916,11 @@
     "@types/events" "*"
     "@types/minimatch" "*"
     "@types/node" "*"
+
+"@types/history@4.7.8":
+  version "4.7.8"
+  resolved "https://registry.npmjs.org/@types/history/-/history-4.7.8.tgz"
+  integrity sha512-S78QIYirQcUoo6UJZx9CSP0O2ix9IaeAXwQi26Rhr/+mg7qqPy8TzaxHSUut7eGjL8WmLccT7/MXf304WjqHcA==
 
 "@types/hoist-non-react-statics@*":
   version "3.3.1"
