@@ -1611,10 +1611,10 @@
     schema-utils "^2.6.5"
     source-map "^0.7.3"
 
-"@primer/components@25.0.0":
-  version "25.0.0"
-  resolved "https://registry.npmjs.org/@primer/components/-/components-25.0.0.tgz"
-  integrity sha512-W3gB+OP1H1vRKeuMU46kqaAuIcVFaaBRhds/7cMWaU94lbVy4MdWB1iZGEGh/ZpcUTrwVU5COpuAheTHM/1Seg==
+"@primer/components@27.0.0":
+  version "27.0.0"
+  resolved "https://registry.npmjs.org/@primer/components/-/components-27.0.0.tgz"
+  integrity sha512-ow0pzG6KbaiVt/KGrVlMY456l7+oLzhzWkgQeB9pqgjkMXfqsYoKeflj5SEvnRRdBkD5qnJOroODQ7lWrdqTvg==
   dependencies:
     "@primer/octicons-react" "^11.3.0"
     "@primer/primitives" "0.0.0-202121782215"
